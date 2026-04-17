@@ -1,0 +1,24 @@
+{
+    "name": "malik-kondi/projet",
+    "version": "1.0.0",
+    "description": "Applicaiton de e-commerce",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/",
+            "Database\\": "database/"
+        }
+    },
+    "scripts": {
+        "dev": "php -S 0.0.0.0:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "KONDI A. Malik"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "1.1.0"
+    }
+}

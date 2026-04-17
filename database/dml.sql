@@ -1,0 +1,1 @@
+insert into Product(libelle,prix,stock,descriptions)values('ordinateur',120000,2,'pc de marque dell'),('portable',55000,5,'itel de a33'),('chargeur',10000,3,'le chargeur du portable'),('baterie',15000,2,'pour le portable'), ('ecran',200000,3,'ecran du pc dell');

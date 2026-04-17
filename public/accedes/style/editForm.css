@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+.formulaire{
+            text-align: center; 
+           background-color: azure;
+            width: 55%;
+            margin: 0 auto;
+            padding: 10px 20px;
+
+          
+}
+.inputs{
+    border-radius: 5px;
+    width: 30%;
+    background-color: cornsilk;
+     border-radius: 10px;
+     padding: 10px 20px;
+}
+#bouton{
+       background-color: black;
+       width: 21%;
+       padding: 10px 25px;
+       color: white;
+       border: none;
+       border-radius: 10px;
+       width: 35%;
+       margin: 30px;
+      
+}
+#contour{
+        
+        border-radius: 25px;
+}
