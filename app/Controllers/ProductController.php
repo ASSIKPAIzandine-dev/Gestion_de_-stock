@@ -72,7 +72,7 @@ class ProductController extends Controller implements CRUD{
     }
     public function updateAction($id){
 				// echo "page updateAction";
-			   	          $libelle=htmlspecialchars($_POST["libelle"]);
+			 $libelle=htmlspecialchars($_POST["libelle"]);
                      	 $prix=htmlspecialchars($_POST["prix"]);
                      	 $stock=htmlspecialchars($_POST["stock"]);
                          $description=htmlspecialchars($_POST["description"]);
@@ -99,7 +99,7 @@ class ProductController extends Controller implements CRUD{
                      				$produit=compact("id","libelle","prix","stock","description");
                                  //print_r($produit);
                                  Product::update($produit);          
-						 	            header("Location:/produits");
+				 header("Location:/produits");
 
                      }
                    	else{

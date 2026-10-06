@@ -15,7 +15,7 @@
 
     <div class="tables">
        <h1 id="titre" >SYSTÈME DE GESTION DU STOCK </h1>
-       <table border="1" id="matable" >
+       <table border="1" id="matable" cellpadding=10 cellspacing=0 >
            <thead id="entete" >
                 <tr>
                     <th>Libelle</th>
